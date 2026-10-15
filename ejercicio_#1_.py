@@ -1,4 +1,10 @@
-# Ejercicio 1
+# ===============================================================
+# Archivo: ejercisio_#1_.py
+# Curso: SOFT-01 Principios de Programacion 1 - Seccion SCP0
+# Integrantes: Isaac Peña Brenes, 
+# Fecha 18/10/2026
+# Descripción: Calcula los recursos necesarios para una misión.
+#================================================================
 
 # --- Entrada de datos ---
 mision = input("Nombre de la misión: ")
