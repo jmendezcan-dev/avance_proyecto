@@ -1,8 +1,13 @@
 # avance_proyecto
+
 Primer avance del proyecto: Preparacion de la mision
+
 Integrantes:
+
 Isaac Pena Brenes
+
 Gabriel mendez cantillano
+
 curso: soft-01
 
 
