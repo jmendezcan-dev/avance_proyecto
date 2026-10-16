@@ -95,11 +95,11 @@ recurso provocó el rechazo.
 - visual code
   
 
- Requisitos previos de software
+Requisitos previos de software
 
 Indique el software o herramientas que deben estar instaladas para poder utilizar o ejecutar el proyecto.
 
-Ejemplos:
+software necesarios :
 
 - Visual Studio Code
 - Python
@@ -108,18 +108,29 @@ Ejemplos:
 - Navegador web preferencia
 - github
 
-## Preparación del proyecto
+Preparación del proyecto
 
-Explique los pasos necesarios para preparar el proyecto después de descargarlo o clonarlo.
+Tener cuenta en git registrada
 
-Ejemplo:
+crear rpositorio en Github
 
-```bash
-git clone URL_DEL_REPOSITORIO
-cd NOMBRE_DEL_PROYECTO
-```
+usar terminal del sistema 
 
-Agregue aquí cualquier otro paso necesario para preparar el entorno.
+utilizar comando C:\Users\User\OneDrive\Documentos\avance_proyecto>git clone https://github.com/jmendezcan-dev/avance_proyecto.git  # git clone URL
+
+utilziar comando C:\Users\User\OneDrive\Documentos\avance_proyecto>cd avance_proyecto                                               # cd carpeta
+
+utilizar comando del status del repositorio C:\Users\User\OneDrive\Documentos\avance_proyecto\avance_proyecto>git status            # git status
+
+utilizar comando agregar archivos C:\Users\User\OneDrive\Documentos\avance_proyecto\avance_proyecto>git add                         # git add (archivo a subir)
+
+utilizar comando para commits C:\Users\User\OneDrive\Documentos\avance_proyecto\avance_proyecto>git commit -m "descrpcion"          # git commit -m "descripcion"
+
+ultilizar comando para agregar varios archivos C:\Users\User\OneDrive\Documentos\avance_proyecto\avance_proyecto>git add --all       # git add --all
+
+utilizar comando para push C:\Users\User\OneDrive\Documentos\avance_proyecto\avance_proyecto>git push origin main                    # push al hub 
+
+verificar en github que los archivos se reflejen correctamente.
 
 ## Cómo ejecutar el proyecto
 
