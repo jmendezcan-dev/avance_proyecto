@@ -28,9 +28,10 @@ Caso de Prueba #3 (Escenario de Alta Demanda):
 El sistema calculara de manera proporcional el alto consumo para misiones prolongadas.
 
 #######################Plantilla###############################
+
 Avance del proyecto: Preparación de la misión 
 
- Descripción del proyecto
+Descripción del proyecto
 
 Descripción del proyecto
 
