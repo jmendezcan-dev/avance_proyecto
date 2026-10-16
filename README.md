@@ -10,35 +10,6 @@ Gabriel mendez cantillano
 
 curso: soft-01
 
-Ejercisio #1
-
-# --- Entrada de datos ---
-mision = input("Nombre de la misión: ")
-tripulantes = int(input("Cantidad de tripulantes: "))
-dias = int(input("Cantidad de días estimados para llegar al destino: "))
-
-# --- Cálculos requeridos ---
-combustible_ida = dias * 8
-combustible_regreso = dias * 8
-reserva_combustible = 10
-combustible_total = combustible_ida + combustible_regreso + reserva_combustible
-
-oxigeno = dias * tripulantes * 2 + 5
-energia = dias * 5 + 10
-provisiones = dias * tripulantes + 3
-
-# --- impresion de resultados ---
-print()
-print("Misión:", mision)
-print("Tripulantes:", tripulantes)
-print("Duración estimada hasta el destino:", dias, "días")
-print("Combustible para llegar:", combustible_ida, "unidades")
-print("Combustible para regresar:", combustible_regreso, "unidades")
-print("Reserva de combustible:", reserva_combustible, "unidades")
-print("Combustible total requerido:", combustible_total, "unidades")
-print("Oxígeno requerido:", oxigeno, "unidades")
-print("Energía requerida:", energia, "unidades")
-print("Provisiones requeridas:", provisiones, "unidades")
 
 
 Instrucciones: 
