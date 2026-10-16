@@ -2,6 +2,9 @@
 Primer avance del proyecto: Preparacion de la mision
 Integrantes:
 Isaac Pena Brenes
+Gabriel mendez cantillano
+curso: soft-01
+
 
 Instrucciones: 
 Ejercisio 1: calculo de recursos necesarios (ejercisio_#1_.py)
