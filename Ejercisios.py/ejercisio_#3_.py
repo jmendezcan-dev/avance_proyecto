@@ -1,5 +1,10 @@
-# ejercisio #3 
-#  Verificación del soporte para la tripulación
+# ===============================================================
+# Archivo: ejercisio_#3_.py
+# Curso: SOFT-01 Principios de Programacion 1 - Seccion SCP0
+# Integrantes: Isaac Peña Brenes, Juan Mendez Cantillano
+# Fecha 18/10/2026
+# Descripción: Verificación del soporte para la tripulación.
+#================================================================
 
 # --- Entrada de datos ---
 oxigeno_disponible = int(input("Cantidad de oxígeno disponible: "))

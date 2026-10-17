@@ -1,4 +1,13 @@
-# Ejercicio 4
+# ===============================================================
+# Archivo: ejercisio_#4_.py
+# Curso: SOFT-01 Principios de Programacion 1 - Seccion SCP0
+# Integrantes: Isaac Peña Brenes, Juan Mendez Cantillano
+# Fecha 18/10/2026
+# Descripción: Autorización inicial de lanzamiento.
+#================================================================
+
+# --- Declaración de constantes ---
+RESERVA_COMBUSTIBLE = 10
 
 # --- Entrada de datos ---
 combustible_disponible = int(input("Combustible disponible: "))
@@ -12,7 +21,7 @@ provisiones_disponibles = int(input("Provisiones disponibles: "))
 provisiones_requeridas = int(input("Provisiones requeridas: "))
 
 #Cálculo requeridos
-combustible_total = combustible_ida + combustible_regreso + 10
+combustible_total = combustible_ida + combustible_regreso + RESERVA_COMBUSTIBLE
 
 # Decisión (con la condicional doble) 
 print()
