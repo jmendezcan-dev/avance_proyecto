@@ -97,9 +97,8 @@ recurso provocó el rechazo.
 
 Requisitos previos de software
 
-Indique el software o herramientas que deben estar instaladas para poder utilizar o ejecutar el proyecto.
+Herramientas y software requeridos:
 
-software necesarios :
 
 - Visual Studio Code
 - Python
