@@ -154,13 +154,24 @@ python --version
 - `Diagramas_de_flujo/`: diagramas de flujo de cada ejercicio (se abren en [app.diagrams.net](https://app.diagrams.net)).
 - `tablas_de_variables.xlsx`: tablas de variables del proyecto (se abre con Excel o LibreOffice).
 
-- Documentación en Pdf.
-
-
 ## Estructura del repositorio
 
-Explique brevemente la organización principal de carpetas y archivos del repositorio.
+```text
+avance_proyecto/
+├── 01_Diagramas_de_flujo/
+├── 02_Tablas_de_variables/
+├── 03_Ejercicios/
+├── 04_Documentacion/
+├── .gitignore
+└── README.md
+```
 
+- **01_Diagramas_de_flujo/**: diagramas de flujo (`.drawio` y `.png`) de cada ejercicio.
+- **02_Tablas_de_variables/**: tabla de variables y casos de prueba.
+- **03_Ejercicios/**: código en Python de los cuatro ejercicios.
+- **04_Documentacion/**: PDF de avance del proyecto.
+- **.gitignore**: archivos ignorados por git.
+- **README.md**: descripción general del proyecto.
 Ejemplo:
 
 ```text
