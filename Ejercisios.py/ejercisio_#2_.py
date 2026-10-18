@@ -15,7 +15,7 @@ combustible_ida = int(input("Combustible requerido para llegar al destino: "))
 combustible_regreso = int(input("Combustible requerido para regresar: "))
 
 #  Calculos requeridos
-total_requerido = combustible_ida + combustible_regreso + RESERVA_COMBUSTIBLE
+total_requerido = combustible_ida + RESERVA_COMBUSTIBLE
 adicional = disponible - total_requerido
 
 

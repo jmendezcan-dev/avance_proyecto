@@ -7,6 +7,7 @@
 #================================================================
 
 # --- Constantes declaradas ---
+# Definen el consumo diario y las reservas de cada recurso.
 COMBUSTIBLE_POR_DIA = 8
 RESERVA_COMBUSTIBLE = 10
 OXIGENO_POR_TRIPULANTE_DIA = 2
@@ -21,10 +22,12 @@ tripulantes = int(input("Cantidad de tripulantes: "))
 dias = int(input("Cantidad de días estimados para llegar al destino: "))
 
 # --- Cálculos requeridos ---
+# Calcula el combustible necesario para la ida y la vuelta,
+# incluyendo la reserva establecida.
 combustible_ida = dias * COMBUSTIBLE_POR_DIA
 combustible_regreso = dias * COMBUSTIBLE_POR_DIA
 reserva_combustible = RESERVA_COMBUSTIBLE
-combustible_total = combustible_ida + combustible_regreso + reserva_combustible
+combustible_total = combustible_ida + reserva_combustible
 
 oxigeno = dias * tripulantes * OXIGENO_POR_TRIPULANTE_DIA + RESERVA_OXIGENO
 energia = dias * ENERGIA_POR_DIA + RESERVA_ENERGIA

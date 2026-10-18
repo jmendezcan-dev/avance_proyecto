@@ -26,7 +26,7 @@ combustible_total = combustible_ida + combustible_regreso + RESERVA_COMBUSTIBLE
 # Decisión (con la condicional doble) 
 print()
 if (combustible_disponible >= combustible_total
-        and oxigeno_disponible >= oxigeno_requerido
+        and oxigeno_disponible == oxigeno_requerido
         and energia_disponible >= energia_requerida
         and provisiones_disponibles >= provisiones_requeridas):
     print("Lanzamiento autorizado.")
