@@ -22,7 +22,7 @@ Desarrollar en Python un simulador de exploración espacial, Misión Órbita, qu
 
 Funcionalidades incluidas
 
-- Funcionalidad ejercisio #1
+- Funcionalidad ejercicio #1
 
 Cálculo de recursos de la misión: a partir del nombre de la misión, la cantidad de tripulantes y los días estimados para llegar al destino, calcula el combustible necesario (ida, regreso y reserva), además del oxígeno, la energía y las provisiones requeridas.
 
@@ -30,7 +30,7 @@ Verificación de condiciones para realizar la misión: compara los recursos disp
 
 Evaluación de tripulación varada: si la nave alcanza el destino sin combustible para regresar, lo detecta y estima cuántos días puede sobrevivir la tripulación con el soporte vital disponible.
 
-- Funcionalidad ejercisio #2
+- Funcionalidad ejercicio #2
 
 Cálculo del combustible total requerido: a partir del combustible necesario para llegar al destino y para regresar, suma la reserva de emergencia de 10 unidades y obtiene el combustible total que exige la misión.
 
@@ -41,14 +41,14 @@ Advertencia de margen bajo: mediante un condicional simple, muestra el mensaje �
 Presentación de resultados: muestra siempre el combustible disponible, el requerido para llegar, el requerido para regresar, la reserva de emergencia, el combustible total requerido y el combustible adicional disponible.
 
 
-- Funcionalidad ejercisio #3
+- Funcionalidad ejercicio #3
 
   Captura de recursos de soporte vital: solicita el oxígeno y las provisiones disponibles y requeridos para la tripulación.
 Verificación de suficiencia de recursos: mediante un condicional doble, comprueba que el oxígeno disponible sea mayor o igual que el requerido y que las provisiones disponibles sean mayores o iguales que las requeridas.
 
 Resultado de autorización de soporte: muestra si la nave posee o no recursos suficientes para la tripulación, sin indicar todavía cuál recurso presenta el problema.
 
-- Funcionalidad ejercisio #4
+- Funcionalidad ejercicio #4
   Captura de recursos de la misión: solicita el combustible disponible, el combustible requerido para llegar y para regresar, y el oxígeno, la energía y las provisiones disponibles y requeridos.
 
 Cálculo del combustible total requerido: suma el combustible de ida, el de regreso y la reserva de emergencia de 10 unidades, para asegurar que desde el inicio exista combustible suficiente para el viaje de regreso.
@@ -130,7 +130,7 @@ python --version
 3. **Entrar a la carpeta de ejercicios:**
 
 ```bash
-   cd Ejercisios.py
+   cd Ejercicios.py
 ```
 
 4. **Ejecutar el programa que quieras probar:**
