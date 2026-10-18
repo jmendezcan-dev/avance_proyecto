@@ -102,22 +102,62 @@ utilizar comando para push C:\Users\User\OneDrive\Documentos\avance_proyecto\ava
 
 verificar en github que los archivos se reflejen correctamente.
 
-## Cómo ejecutar el proyecto
+Cómo ejecutar el proyecto
 
-Explique de forma clara los pasos necesarios para ejecutar el proyecto.
+Requisitos
 
-Ejemplo:
+- Python ([descargar aquí](https://www.python.org/downloads/))
+- Git (opcional, solo para clonar el repositorio)
 
-```bash
-python main.py
-```
-
-o:
+Para comprobar que Python está instalado:
 
 ```bash
-npm install
-npm run dev
+python --version
 ```
+
+ Pasos
+
+1. **Clonar el repositorio** (o descargarlo como ZIP desde el botón **Code**):
+
+```bash
+   git clone https://github.com/jmendezcan-dev/avance_proyecto.git
+```
+
+2. **Entrar a la carpeta del proyecto:**
+
+```bash
+   cd avance_proyecto
+```
+
+3. **Entrar a la carpeta de ejercicios:**
+
+```bash
+   cd Ejercisios.py
+```
+
+4. **Ejecutar el programa que quieras probar:**
+
+```bash
+   python nombre_del_archivo.py
+```
+
+5. **Ingresar los datos** cuando el programa los solicite en la terminal. Por ejemplo:
+
+```
+   Nombre de la misión: Artemis
+   Cantidad de tripulantes: 4
+   Cantidad de días estimados para llegar al destino: 10
+```
+
+   El programa mostrará los resultados directamente en pantalla.
+
+ Otros archivos del repositorio
+
+- `Diagramas_de_flujo/`: diagramas de flujo de cada ejercicio (se abren en [app.diagrams.net](https://app.diagrams.net)).
+- `tablas_de_variables.xlsx`: tablas de variables del proyecto (se abre con Excel o LibreOffice).
+
+- Documentacion en Pdf.
+
 
 ## Estructura del repositorio
 
@@ -133,9 +173,9 @@ proyecto/
 └── archivo_principal
 ```
 
-## Estado del proyecto
+Estado del proyecto
 
-Indique el estado actual del proyecto.
+concluido.
 
 Ejemplos:
 
