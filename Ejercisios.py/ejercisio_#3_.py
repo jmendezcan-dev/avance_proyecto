@@ -2,7 +2,7 @@
 # Archivo: ejercisio_#3_.py
 # Curso: SOFT-01 Principios de Programacion 1 - Seccion SCP0
 # Integrantes: Isaac Peña Brenes, Juan Mendez Cantillano
-# Fecha 18/10/2026
+# Fecha 18/10/2026            Versión: 1.2
 # Descripción: Verificación del soporte para la tripulación.
 #================================================================
 
