@@ -175,15 +175,7 @@ avance_proyecto/
 
 Estado del proyecto
 
-Concluido.
-
-Ejemplos:
-
-- En desarrollo
-- Avance 1
-- Avance 2
-- Entrega final
-- Finalizado
+finalizado.
 
 Información académica
 
