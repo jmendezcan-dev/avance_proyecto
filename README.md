@@ -4,8 +4,6 @@ Avance del proyecto: Preparación de la misión
 
 Descripción del proyecto
 
-Descripción del proyecto
-
 Misión Órbita es un simulador básico de exploración espacial desarrollado en Python que modela, paso a paso, la preparación y ejecución de la misión.
 
 Problema que resuelve: Necesita una herramienta que ayude a planificar misiones de forma segura, calculando los recursos necesarios, verificando si existen las condiciones para realizarlas y evitando que una nave llegue a su destino sin poder regresar.
