@@ -92,7 +92,7 @@ utilizar comando del status del repositorio C:\Users\User\OneDrive\Documentos\av
 
 utilizar comando agregar archivos C:\Users\User\OneDrive\Documentos\avance_proyecto\avance_proyecto>git add                         # git add (archivo a subir)
 
-utilizar comando para commits C:\Users\User\OneDrive\Documentos\avance_proyecto\avance_proyecto>git commit -m "descripcion"          # git commit -m "descripcion"
+utilizar comando para commits C:\Users\User\OneDrive\Documentos\avance_proyecto\avance_proyecto>git commit -m "descripción"          # git commit -m "descripción"
 
 ultilizar comando para agregar varios archivos C:\Users\User\OneDrive\Documentos\avance_proyecto\avance_proyecto>git add --all       # git add --all
 
@@ -154,7 +154,7 @@ python --version
 - `Diagramas_de_flujo/`: diagramas de flujo de cada ejercicio (se abren en [app.diagrams.net](https://app.diagrams.net)).
 - `tablas_de_variables.xlsx`: tablas de variables del proyecto (se abre con Excel o LibreOffice).
 
-- Documentacion en Pdf.
+- Documentación en Pdf.
 
 
 ## Estructura del repositorio
