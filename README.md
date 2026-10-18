@@ -6,7 +6,7 @@ Descripción del proyecto
 
 Misión Órbita es un simulador básico de exploración espacial desarrollado en Python que modela, paso a paso, la preparación y ejecución de la misión.
 
-Problema que resuelve: Necesita una herramienta que ayude a planificar misiones de forma segura, calculando los recursos necesarios, verificando si existen las condiciones para realizarlas y evitando que una nave llegue a su destino sin poder regresar.
+Problema que resuelve: Se necesita una herramienta que ayude a planificar misiones de forma segura, calculando los recursos necesarios, verificando si existen las condiciones para realizarlas y evitando que una nave llegue a su destino sin poder regresar.
 
 Propósito principal: construir progresivamente, a lo largo de tres entregas, un sistema completo que permita preparar la misión, seleccionar un destino, simular el viaje, enfrentar situaciones durante el recorrido y realizar actividades de exploración al llegar.
 
@@ -60,8 +60,8 @@ recurso provocó el rechazo.
 
  Tecnologías utilizadas
 
-- phyton
-- visual code
+- Phyton
+- Visual Studio Code
   
 
 Requisitos previos de software
@@ -72,33 +72,33 @@ Herramientas y software requeridos:
 - Visual Studio Code
 - Python
 - draw.io
-- excell
-- Navegador web preferencia
-- github
+- Excel
+- Navegador web de preferencia
+- Github
 
 Preparación del proyecto
 
 Tener cuenta en git registrada
 
-crear rpositorio en Github
+crear repositorio en Github
 
 usar terminal del sistema 
 
 utilizar comando C:\Users\User\OneDrive\Documentos\avance_proyecto>git clone https://github.com/jmendezcan-dev/avance_proyecto.git  # git clone URL
 
-utilziar comando C:\Users\User\OneDrive\Documentos\avance_proyecto>cd avance_proyecto                                               # cd carpeta
+utilizar comando C:\Users\User\OneDrive\Documentos\avance_proyecto>cd avance_proyecto                                               # cd carpeta
 
 utilizar comando del status del repositorio C:\Users\User\OneDrive\Documentos\avance_proyecto\avance_proyecto>git status            # git status
 
 utilizar comando agregar archivos C:\Users\User\OneDrive\Documentos\avance_proyecto\avance_proyecto>git add                         # git add (archivo a subir)
 
-utilizar comando para commits C:\Users\User\OneDrive\Documentos\avance_proyecto\avance_proyecto>git commit -m "descrpcion"          # git commit -m "descripcion"
+utilizar comando para commits C:\Users\User\OneDrive\Documentos\avance_proyecto\avance_proyecto>git commit -m "descripcion"          # git commit -m "descripcion"
 
 ultilizar comando para agregar varios archivos C:\Users\User\OneDrive\Documentos\avance_proyecto\avance_proyecto>git add --all       # git add --all
 
 utilizar comando para push C:\Users\User\OneDrive\Documentos\avance_proyecto\avance_proyecto>git push origin main                    # push al hub 
 
-verificar en github que los archivos se reflejen correctamente.
+verificar en Github que los archivos se reflejen correctamente.
 
 Cómo ejecutar el proyecto
 
@@ -173,7 +173,7 @@ proyecto/
 
 Estado del proyecto
 
-concluido.
+Concluido.
 
 Ejemplos:
 
@@ -187,11 +187,11 @@ Información académica
 
 Universidad
 
-Cenfotec
+CENFOTEC
 
 Principios de programación 1
 
-soft-01
+SOFT-01
 
 Fecha de desarrollo
 
@@ -199,5 +199,5 @@ Fecha de desarrollo
 
 Estudiantes
 
-- Gabriel Méndez cantillano
-- Isaac pena brenes
+- Gabriel Méndez Cantillano
+- Isaac Peña Brenes
