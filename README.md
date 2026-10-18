@@ -154,7 +154,7 @@ python --version
 - `Diagramas_de_flujo/`: diagramas de flujo de cada ejercicio (se abren en [app.diagrams.net](https://app.diagrams.net)).
 - `tablas_de_variables.xlsx`: tablas de variables del proyecto (se abre con Excel o LibreOffice).
 
-## Estructura del repositorio
+Estructura del repositorio
 
 ```text
 avance_proyecto/
@@ -172,15 +172,6 @@ avance_proyecto/
 - **04_Documentacion/**: PDF de avance del proyecto.
 - **.gitignore**: archivos ignorados por git.
 - **README.md**: descripción general del proyecto.
-Ejemplo:
-
-```text
-proyecto/
-├── src/
-├── docs/
-├── README.md
-└── archivo_principal
-```
 
 Estado del proyecto
 
