@@ -84,9 +84,9 @@ crear repositorio en Github
 
 usar terminal del sistema 
 
-utilizar comando C:\Users\User\OneDrive\Documentos\avance_proyecto>git clone https://github.com/jmendezcan-dev/avance_proyecto.git  # git clone URL
-
 utilizar comando C:\Users\User\OneDrive\Documentos\avance_proyecto>cd avance_proyecto                                               # cd carpeta
+
+utilizar comando C:\Users\User\OneDrive\Documentos\avance_proyecto>git clone https://github.com/jmendezcan-dev/avance_proyecto.git  # git clone URL
 
 utilizar comando del status del repositorio C:\Users\User\OneDrive\Documentos\avance_proyecto\avance_proyecto>git status            # git status
 
