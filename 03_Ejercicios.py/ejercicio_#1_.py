@@ -27,7 +27,7 @@ dias = int(input("Cantidad de días estimados para llegar al destino: "))
 combustible_ida = dias * COMBUSTIBLE_POR_DIA
 combustible_regreso = dias * COMBUSTIBLE_POR_DIA
 reserva_combustible = RESERVA_COMBUSTIBLE
-combustible_total = combustible_ida + reserva_combustible
+combustible_total = combustible_ida + combustible_regreso + reserva_combustible
 
 oxigeno = dias * tripulantes * OXIGENO_POR_TRIPULANTE_DIA + RESERVA_OXIGENO
 energia = dias * ENERGIA_POR_DIA + RESERVA_ENERGIA
