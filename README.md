@@ -258,7 +258,7 @@ SOFT-01
 
 Fecha de desarrollo
 
-11/10/26
+11/15/26
 
 Estudiantes
 
