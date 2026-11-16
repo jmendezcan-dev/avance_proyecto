@@ -1,6 +1,13 @@
-# Ejercicio 6: Simulación del viaje hacia el destino
+# ==============================================================================
+# Archivo: ejercicio_#5.py
+# Curso: SOFT-01 Principios de Programación 1 - Sección SCPO
+# Integrantes: gabriel mendez y isaac pena
+# Fecha: 15/11/2026
+# Versión: 2.0
+# Descripción: Selección del destino 
+# ==============================================================================
 
-# Constantes de consumo diario
+# Constantes 
 CONSUMO_COMBUSTIBLE_DIA = 8
 CONSUMO_OXIGENO_TRIPULANTE = 2
 CONSUMO_ENERGIA_DIA = 5
@@ -18,7 +25,7 @@ provisiones_disponibles = int(input("Provisiones disponibles: "))
 consumo_oxigeno_dia = cant_tripulantes * CONSUMO_OXIGENO_TRIPULANTE
 consumo_provisiones_dia = cant_tripulantes * CONSUMO_PROVISIONES_TRIPULANTE
 
-# Variables de control del ciclo
+# ciclos
 dia_actual = 1
 dias_completados = 0
 puede_continuar = True
@@ -46,7 +53,7 @@ while dia_actual <= dias_viaje and puede_continuar:
     else:
         puede_continuar = False
 
-# Resultado final
+# Datos de salida
 if puede_continuar:
     print("La nave llegó al destino en", dias_completados, "días.")
     print("Recursos restantes -> Combustible:", combustible_disponible,

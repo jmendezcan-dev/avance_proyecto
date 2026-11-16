@@ -1,5 +1,11 @@
-# Ejercisio #5
-# SELECCIÓN DEL DESTINO Y AUTORIZACIÓN DE LA MISIÓN
+# ==============================================================================
+# Archivo: ejercicio_#5.py
+# Curso: SOFT-01 Principios de Programación 1 - Sección SCPO
+# Integrantes: gabriel mendez y isaac pena
+# Fecha: 15/11/2026
+# Versión: 2.0
+# Descripción: Selección del destino 
+# ==============================================================================
 
 # Constantes
 CONSUMO_COMBUSTIBLE_DIA = 8
@@ -11,6 +17,7 @@ ENERGIA_EXPLORACION = 10
 CONSUMO_PROVISIONES_TRIPULANTE = 1
 RESERVA_PROVISIONES = 3
 
+# Datos de entrada
 print("SELECCIÓN DEL DESTINO Y AUTORIZACIÓN DE LA MISIÓN")
 
 nombre_mision = input("Nombre de la misión: ")
@@ -40,7 +47,7 @@ match opcion_destino:
     case _:
         opcion_valida = False
 
-# Condicional anidada: rama de opción válida
+# Evaluaciones
 if not opcion_valida:
     print("Opción de destino no válida. La misión no puede planificarse.")
 else:
@@ -49,22 +56,21 @@ else:
     oxigeno_disponible = int(input("Oxígeno disponible: "))
     energia_disponible = int(input("Energía disponible: "))
     provisiones_disponibles = int(input("Provisiones disponibles: "))
-
+# Calculos de los requerimientos
     combustible_ida = dias_viaje * CONSUMO_COMBUSTIBLE_DIA
     combustible_regreso = dias_viaje * CONSUMO_COMBUSTIBLE_DIA
     combustible_total_requerido = combustible_ida + combustible_regreso + RESERVA_COMBUSTIBLE
-
     oxigeno_requerido = (dias_viaje * cant_tripulantes * CONSUMO_OXIGENO_TRIPULANTE) + RESERVA_OXIGENO
     energia_requerida = (dias_viaje * CONSUMO_ENERGIA_DIA) + ENERGIA_EXPLORACION
     provisiones_requeridas = (dias_viaje * cant_tripulantes * CONSUMO_PROVISIONES_TRIPULANTE) + RESERVA_PROVISIONES
-
+# Verificacion de los recursos
     lanzamiento_autorizado = (
         combustible_disponible >= combustible_total_requerido
         and oxigeno_disponible >= oxigeno_requerido
         and energia_disponible >= energia_requerida
         and provisiones_disponibles >= provisiones_requeridas
     )
-
+# Datos de salida esperada
     print("Misión:", nombre_mision)
     print("Destino:", nombre_destino)
     print("Tripulantes:", cant_tripulantes)
